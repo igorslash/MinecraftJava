@@ -1,0 +1,16 @@
+name: PluginM
+version: '${project.version}'
+main: trainin.pluginm.PluginM
+api-version: 1.19
+authors: [ igor ]
+
+commands:
+  calculator:
+    description: numbers + numbers
+    aliases:
+      - calc
+    usage: /calculate <num1> <+|-|/|*> <num2>
+
+  spawnEntity:
+    aliases:
+      - se
