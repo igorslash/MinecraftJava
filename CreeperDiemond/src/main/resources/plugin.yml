@@ -1,0 +1,13 @@
+name: PluginM
+version: '${project.version}'
+main: trainin.pluginm.PluginM
+api-version: 1.19
+authors: [ igor ]
+
+commands:
+  spawnEntity:
+    aliases:
+      - se
+  giveItems:
+    aliases:
+      - gt
