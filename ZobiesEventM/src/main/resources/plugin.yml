@@ -1,0 +1,5 @@
+name: Event
+version: '${project.version}'
+main: mienecraftplugin.event.Event
+api-version: 1.19
+authors: [ igor ]
